@@ -1,0 +1,21 @@
+#!/bin/bash
+
+path=/home/vagrant/ram_logs/ram_usage_file.log
+
+midnight=$(date +%H%M)
+
+email=aicodeen@gmail.com
+
+touch ${path}
+
+if [[ ${midnight} == 0000 ]]; 
+   then echo "RAM REPORT" | mutt -a ${path} -s "Ram Usage Report" -- ${email} && sudo rm -f ${path}
+else
+
+date >> ${path}
+
+free -h >> ${path}
+
+echo "---" >> ${path}
+
+fi

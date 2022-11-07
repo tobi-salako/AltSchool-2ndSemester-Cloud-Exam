@@ -1,0 +1,35 @@
+ico@aico:~/Desktop/Altschool-Cloud-Exercises/vagrant/boxes/ubuntu20.04-LTaico@aico@aico:~/Desktop/Altschool-Cloud-Exercises/vagrant/boxes/ubuntu20.04-LTS$ ifconfig
+eno1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 14:cb:19:76:0b:b8  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enxac7debcf95c6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.100  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::5824:8521:c571:78ca  prefixlen 64  scopeid 0x20<link>
+        ether ac:7d:eb:cf:95:c6  txqueuelen 1000  (Ethernet)
+        RX packets 515947  bytes 619403050 (619.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 221759  bytes 44662773 (44.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 24525  bytes 2580683 (2.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24525  bytes 2580683 (2.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.101  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::b860:934:3780:c813  prefixlen 64  scopeid 0x20<link>
+        ether 64:6c:80:cb:9b:33  txqueuelen 1000  (Ethernet)
+        RX packets 2498466  bytes 3175661725 (3.1 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 994743  bytes 151344181 (151.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

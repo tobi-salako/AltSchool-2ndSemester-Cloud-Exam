@@ -1,0 +1,17 @@
+commit ce88a17af5c647e10cd737cb11980cc37bb014e6
+Author: AICO1000 <aicodeen@gmail.com>
+Date:   Thu Sep 22 12:27:35 2022 +0100
+
+    Submitting Assignment
+
+commit 17dc98ba054333304bf3ae6fb539036922b4fb6f
+Author: AICO1000 <aicodeen@gmail.com>
+Date:   Sun Sep 11 22:21:04 2022 +0100
+
+    ifconfig output updated
+
+commit 49ec33340aef22b3819fbb656cb5c87d99c23632
+Author: Samuel Adamu <aicodeen@gmail.com>
+Date:   Thu Aug 25 14:00:32 2022 +0100
+
+    My first Execrise
